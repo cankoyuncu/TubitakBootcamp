@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ComponentTest {
     public static void print(){
-        System.out.println("Hello world");
+
+        System.out.println("Component bean'i");
     }
 }

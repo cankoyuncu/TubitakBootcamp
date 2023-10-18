@@ -17,8 +17,9 @@ public class SpringCoreApplication {
 		//dependencyInjectionTest.print();
 
 		LifecycleBean lifecycleBean = context.getBean(LifecycleBean.class);
-		lifecycleBean.print();
+		//lifecycleBean.print();
+
+		InjectionTest injectionTest = context.getBean(InjectionTest.class);
+		injectionTest.print();
 	}
-
-
 }
